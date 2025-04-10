@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import Icon from "../iconMesseger/Icon";
 import { Link as LinkScroll } from 'react-scroll';
 
 const Footer = () => {
@@ -36,13 +35,6 @@ const Footer = () => {
 							<p className='footer-title'>
 								Контакты
 							</p>
-							{/* <div className='flex'>
-								<a href='tel:80' className="font-semibold sd:text-xl xz:text-xl mr-2">
-									+375 29 000-00-00
-								</a>
-								<Image src='/svg/a1.svg' alt='Оператор А1 для записи на автомойку' width={20} height={20} />
-							</div> */}
-
 							<div className='mt-2 flex'>
 								<a href='tel:80257773473' className="font-semibold sd:text-xl xz:text-xl mr-2">
 									+375 25 777-34-73
@@ -92,16 +84,6 @@ const Footer = () => {
 							</span>
 						</p>
 					</div>
-
-
-{/* 
-					<nav className='sd:mt-0 xz:mt-4'>
-						<p className="footer-title">Social</p>
-						<div className="grid grid-flow-col gap-4">
-							<Icon />
-						</div>
-					</nav> */}
-
 				</aside>
 			</div>
 
